@@ -12,5 +12,5 @@ link_directories(${OpenCV_LIBRARY_DIRS})
 add_definitions(${OpenCV_DEFINITIONS})
 
 # Executable for create matrix exercise
-add_executable (2D_feature_tracking src/matching2D.cpp src/2D_feature_tracking_camera.cpp)
-target_link_libraries (2D_feature_tracking ${OpenCV_LIBRARIES})
+add_executable (2D_feature_tracking_camera src/matching2D.cpp src/2D_feature_tracking_camera.cpp)
+target_link_libraries (2D_feature_tracking_camera ${OpenCV_LIBRARIES})
